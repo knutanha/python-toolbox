@@ -1,6 +1,7 @@
 import unittest
-import filemonitor.filemonitor as fm
-import filemonitor.settings as settings
+from pytoolbox.filemonitor import filemonitor as fm
+import pytoolbox.settings as settings
+
 
 class FileMonitorableClass(fm.FileMonitorable):
 

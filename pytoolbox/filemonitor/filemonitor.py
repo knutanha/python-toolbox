@@ -3,9 +3,9 @@ import enum
 import json
 import os
 import time
-import filemonitor.logger as logger
-import filemonitor.os_utils as os_utils
-import filemonitor.settings as settings
+import pytoolbox.utility.logger as logger
+import pytoolbox.utility.os as os_utils
+import pytoolbox.settings as settings
 
 __version__ = '0.2'
 __author__ = 'Knut Andreas Hasund'
